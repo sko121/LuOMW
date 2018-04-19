@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 导航 group -->
+    <string-array name="List">
+        <item>BasicModule0</item>
+		<item>Layout1</item>    
+		<item>aboutActivity2</item>  
+		<item>AdapterView3</item> 
+		<item>Async4</item> 
+		<item>Dialog5</item> 
+		<item>ViewPager6</item> 
+		<item>Intent7</item> 
+		<item>Menu8</item> 
+		<item>fragment9</item> 
+		<item>Notification10</item> 
+		<item>sqlite11</item> 
+		<item>ContentProvider12</item> 
+		<item>brodcast13</item> 
+		<item>service14</item> 
+		<item>customComponent15</item> 
+    </string-array>
+    
+    <!--第0组  -->
+    <string-array name="BasicModule0">
+        <item>CheckBoxDemo00</item>
+        <item>ImageViewDemo01</item>
+        <item>ButtonDemo02</item>
+        <item>OnclickDemo03</item>
+    </string-array>
+    
+    <!--第1组  -->
+    <string-array name="Layout1">
+        <item>LayoutDemo10</item>
+    </string-array>
+    
+    <!--第2组  -->
+    <string-array name="aboutActivity2">
+		<item>ActivityCycle20</item>
+		<item>LoginDemo21</item> 
+		<item>ProgressBar+handler22</item>         
+		<item>installAPK23</item>         
+    </string-array>
+    
+    <!--第3组 -->
+    <string-array name="AdapterView3">
+      	<item>ArrayAdapter01：ListView30</item>
+        <item>SimpleAdapter：ListView31</item>
+        <item>自定义Adapter：ListView32</item>
+        <item>Spinner：ArrayAdapter33</item>
+        <item>Spinner: SimpleAdapter34</item>
+        <item>GridViewDemo35</item>
+        <item>AutoCompleteTextView(冒牌)36</item>
+        <item>ListView(addHeader+多布局)37</item>
+        <item>ListView(分页加载)38</item>
+    </string-array>
+    
+    <!-- 第4组 -->
+    <string-array name="Async4">
+        <item>异步加载（Thread+LruCache）40</item>
+        <item>AsyncTask加载网络图片41</item>
+        <item>异步加载（AsyncTask+LruCache）42</item>
+        <item>AsyncTask 更新进度条43</item>
+        <item>异步加载 继承OnScrollListener44</item>
+    </string-array>
+    
+    <!-- 第5组 -->
+    <string-array name="Dialog5">
+        <item>基本对话框50</item>
+    </string-array>
+    
+    <!-- 第6组 -->
+    <string-array name="ViewPager6">
+        <item>ViewPager60</item>
+    </string-array>
+    
+    <!-- 第7组 -->
+    <string-array name="Intent7">
+        <item>SendMessage70</item>
+        <item>CallPhone71</item>
+    </string-array>
+    
+    <!-- 第8组 -->
+    <string-array name="Menu8">
+        <item>OptionMenu80</item>
+        <item>OptionMenu(xml配置文档)81</item>
+        <item>ContextMenu82</item>
+        <item>PopupMenu83</item>
+        <item>PopupWindow84</item>
+    </string-array>
+    
+    <!-- 第9组 -->
+    <string-array name="fragment9">
+        <item>fragmentStatic90</item>
+        <item>fragmentLifeCycle91</item>
+        <item>fragmentDynamic92</item>
+        <item>fragment间数据传递93</item>
+        <item>ViewPager+Fragment+FragmentPagerAdapter94</item>
+    </string-array>
+    
+    <!-- 通知演示 -->
+    <string-array name="Notification10">
+        <item>通知演示100</item>
+    </string-array>
+    
+    <!-- 第11组 -->
+    <string-array name="sqlite11">
+        <item>SimpleCusorAdapter 110</item>
+        <item>分页加载 111</item>
+    </string-array>
+    
+    <!-- 第12组 -->
+    <string-array name="ContentProvider12">
+        <item>读取通话记录 120</item>
+        <item>读取短信记录 121</item>
+        <item>发短信记录 122</item>
+        <item>操作联系人 123</item>
+    </string-array>
+    
+    <!-- 第13组 -->
+    <string-array name="brodcast13">
+        <item>发送广播130</item>
+    </string-array>
+    
+    <!-- 第14组 -->
+    <string-array name="service14">
+        <item>StartService LifeCycle140</item>
+        <item>StartService(进程和线程)141</item>
+        <item>IntentService(网络下载图片并且保存SDCard)142</item>
+        <item>BindService LifeCycle143</item>
+        <item>Service(bindService) transact数据传递144</item>
+        <item>Service(进程间通信) AIDL145</item>
+    </string-array>
+    
+    <!-- 第15组 -->
+    <string-array name="customComponent15">
+        <item>customEditText150</item>
+        <item>customRect151</item>
+        <item>自定义图表152</item>
+    </string-array>
+</resources>

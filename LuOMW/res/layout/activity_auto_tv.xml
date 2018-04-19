@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<AutoCompleteTextView 
+	    android:id="@+id/auto_tv"
+	    style="@style/MAutoCompleteTextView"
+	    android:layout_width="match_parent"
+	    android:layout_height="45dp"
+	    android:drawableLeft="@drawable/search"
+	    android:padding="10dp"
+	    android:drawablePadding="10dp"
+	    android:background="@drawable/auto_tv_bg"
+	    android:layout_margin="10dp"/>
+    
+</LinearLayout>

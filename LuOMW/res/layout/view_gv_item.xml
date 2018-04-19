@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="180dp"
+    android:layout_margin="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/gift_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gift_lipin" />
+
+    <TextView
+        android:id="@+id/gift_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gift_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:text="宫铃"
+        android:textColor="#838383"
+        android:textSize="17sp" />
+
+</RelativeLayout>

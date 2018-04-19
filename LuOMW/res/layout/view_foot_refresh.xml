@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp" 
+    android:gravity="center"
+    >
+
+    <ProgressBar
+        android:id="@+id/refresh_pb"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:indeterminateDrawable="@drawable/progress_medium_small_oragne" />
+
+    <TextView
+        android:id="@+id/refresh_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在为您加载更多"
+        android:layout_toRightOf="@id/refresh_pb"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.radiodemo.Activity02"
+    tools:ignore="MergeRootFrame"
+    android:orientation="vertical" >
+
+	<RadioGroup 
+	    android:id="@+id/rg"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    
+	    <RadioButton 
+	        android:id="@+id/b1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="male"/>
+	    
+	    <RadioButton 
+	        android:id="@+id/b2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="onClickMethod2"
+	        android:text="female"/>
+	    
+	</RadioGroup>
+
+</LinearLayout>
+

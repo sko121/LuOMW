@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.omw"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    
+    <uses-permission android:name="cn.com.omw.p.login" />
+    
+    <permission 
+        android:name="cn.com.omw.gift.read"
+        android:label="omw read gift"
+        android:protectionLevel="normal">
+    </permission>
+    <permission 
+        android:name="cn.com.omw.gift.write"
+        android:label="omw write gift"
+        android:protectionLevel="normal">
+	</permission>
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:name=".MyApplication">
+        <activity
+            android:name="com.example.omw.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.omw.Activity00" >
+        </activity>
+        <activity android:name="com.example.omw.Activity01" >
+        </activity>
+        <activity android:name="com.example.omw.Activity02" >
+        </activity>
+        <activity android:name="com.example.omw.Activity03" >
+        </activity>
+        <activity android:name="com.example.omw.Activity10" >
+        </activity>
+        <activity android:name="com.example.omw.Activity20" >
+        </activity>
+        <activity android:name="com.example.omw.Activity21" >
+        </activity>
+        <activity android:name="com.example.omw.Activity22" >
+        </activity>
+        <activity android:name="com.example.omw.Activity23" >
+        </activity>
+        <activity android:name="com.example.omw.Activity30" >
+        </activity>
+        <activity android:name="com.example.omw.Activity31" >
+        </activity>
+        <activity android:name="com.example.omw.Activity32" >
+        </activity>
+        <activity android:name="com.example.omw.Activity33" >
+        </activity>
+        <activity android:name="com.example.omw.Activity34" >
+        </activity>
+        <activity android:name="com.example.omw.Activity35" >
+        </activity>
+        <activity android:name="com.example.omw.Activity36" >
+        </activity>
+        <activity android:name="com.example.omw.Activity37" >
+        </activity>
+        <activity android:name="com.example.omw.Activity38" >
+        </activity>
+        <activity android:name="com.example.omw.Activity40" >
+        </activity>
+        <activity android:name="com.example.omw.Activity41" >
+        </activity>
+        <activity android:name="com.example.omw.Activity42" >
+        </activity>
+        <activity android:name="com.example.omw.Activity43" >
+        </activity>
+        <activity android:name="com.example.omw.Activity44" >
+        </activity>
+        <activity android:name="com.example.omw.Activity50" >
+        </activity>
+        <activity android:name="com.example.omw.Activity60" >
+        </activity>
+        <activity android:name="com.example.omw.Activity70" >
+        </activity>
+        <activity android:name="com.example.omw.Activity71" >
+        </activity>
+        <activity android:name="com.example.omw.Activity80" 
+            android:theme="@style/AppBaseTheme">
+        </activity>
+        <activity android:name="com.example.omw.Activity81" 
+            android:theme="@style/AppBaseTheme">
+        </activity>
+        <activity android:name="com.example.omw.Activity82" 
+            android:theme="@style/AppBaseTheme">
+        </activity>
+        <activity android:name="com.example.omw.Activity83" >
+        </activity>
+        <activity android:name="com.example.omw.Activity84" >
+        </activity>
+        <activity android:name="com.example.omw.Activity90" >
+        </activity>
+        <activity android:name="com.example.omw.fragment.LifeCycleFragment" >
+        </activity>
+        <activity android:name="com.example.omw.Activity92" >
+        </activity>
+        <activity android:name="com.example.omw.Activity93" >
+        </activity>
+        <activity android:name="com.example.omw.Activity94" >
+        </activity>
+        <activity android:name="com.example.omw.Activity100" >
+        </activity>
+        <activity android:name="com.example.omw.Activity110" >
+        </activity>
+        <activity android:name="com.example.omw.Activity111" >
+        </activity>
+        <activity android:name="com.example.omw.Activity120" >
+        </activity>
+        <activity android:name="com.example.omw.Activity121" >
+        </activity>
+        <activity android:name="com.example.omw.Activity122" >
+        </activity>
+        <activity android:name="com.example.omw.Activity123" >
+        </activity>
+        <activity android:name="com.example.omw.Activity130" >
+        </activity>
+        <activity android:name="com.example.omw.Activity140" >
+        </activity>
+        <activity android:name="com.example.omw.Activity141" >
+        </activity>
+        <activity android:name="com.example.omw.Activity142" >
+        </activity>
+        <activity android:name="com.example.omw.Activity143" >
+        </activity>
+        <activity android:name="com.example.omw.Activity144" >
+        </activity>
+        <activity android:name="com.example.omw.Activity145" >
+        </activity>
+        <activity android:name="com.example.omw.Activity150" >
+        </activity>
+        <activity android:name="com.example.omw.Activity151" >
+        </activity>
+        <activity android:name="com.example.omw.Activity152" >
+        </activity>
+        <activity android:name="com.example.omw.CheckLoginActivity" >
+        </activity>
+        <activity android:name="com.example.omw.MyApplication" >
+        </activity>
+        
+        <!-- 内容提供者 -->
+        <provider 
+            android:name="com.example.omw.provider.GiftContentProvider"
+            android:authorities="cn.com.omw.gift"
+            android:exported="true"
+            android:readPermission="cn.com.omw.gift.read"
+            android:writePermission="cn.com.omw.gift.write"/>
+        
+        <receiver 
+            android:name="com.example.omw.receiver.MyReceiver1"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.lu.omw"/>
+            </intent-filter>
+        </receiver>
+        <receiver 
+            android:name="com.example.omw.receiver.MyReceiver2"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.lu.omw"/>
+            </intent-filter>
+        </receiver>
+        <receiver 
+            android:name="com.example.omw.receiver.MyReceiver3"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="400">
+                <action android:name="com.lu.omw.send"/>
+            </intent-filter>
+        </receiver>
+        <receiver 
+            android:name="com.example.omw.receiver.MyReceiver4"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="300">
+                <action android:name="com.lu.omw.send"/>
+            </intent-filter>
+        </receiver>
+        <receiver 
+            android:name="com.example.omw.receiver.MyReceiver5"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="200">
+                <action android:name="com.lu.omw.send"/>
+            </intent-filter>
+        </receiver>
+        
+        <service android:name="com.example.omw.service.LifeService">
+        </service>
+        <service android:name="com.example.omw.service.ThreadService">
+        </service>
+        <service android:name="com.example.omw.service.DownLoadService">
+        </service>
+        <service android:name="com.example.omw.service.LifeBindService">
+        </service>
+        <service android:name="com.example.omw.service.LocalService">
+        </service>
+        <service android:name="com.example.omw.Activity143$MyServiceConnection">
+        </service>
+    </application>
+
+</manifest>

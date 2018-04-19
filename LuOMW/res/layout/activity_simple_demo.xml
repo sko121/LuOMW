@@ -1,0 +1,45 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"  
+    tools:context="com.example.musiclistapp.Activity01"
+    tools:ignore="MergeRootFrame" 
+    android:background="#F9F9F9"
+    android:orientation="horizontal">
+    <!-- android:layout_height="100dp" -->
+    
+	<ImageView 
+	    android:id="@+id/img"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:src="@drawable/gift_zixun"
+	     android:layout_margin="10dp"/>
+	
+	 <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="23sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="content"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+

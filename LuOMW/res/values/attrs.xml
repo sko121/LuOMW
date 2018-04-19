@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--定义自定义属性集合 每一个 declare-styleable 可以保护多个属性字段  -->
+    <!--
+    	在代码获取样式的时候，先获取 
+    	TypedArray typedArray=context.obtainStyledAttributes(attrs,R.styleable.NoteEdit);
+    -->
+    <declare-styleable name="NoteEdit">
+        
+        <!-- 定义属性名称，这个就是用在layout中的 -->
+        <!--
+          	代码获取这个属性应该这样获取：
+          	color=typedArray.getColor(R.styleable.NoteEdit_noteLineColor,ColorBlack);
+        -->
+        <attr name="noteLineColor" format="color"></attr>
+    </declare-styleable>
+    
+</resources>

@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.imageviewtest.Activity01"
+    tools:ignore="MergeRootFrame" 
+    android:orientation="vertical">
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    >
+	    
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+	        <ImageView
+	            android:id="@+id/img1"
+	            android:layout_width="94dp"
+	            android:layout_height="82dp"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/icon_shitou" />
+
+	        <ImageView
+	            android:id="@+id/img2"
+	            android:layout_width="94dp"
+	            android:layout_height="82dp"
+	            android:layout_marginLeft="130dp"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/icon_shitou" />
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+	         <TextView 
+	            android:id="@+id/tv1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="33sp"
+	            android:layout_marginRight="60dp"
+	            android:text="甲方"/>
+	         
+	         <TextView 
+	            android:id="@+id/tv2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="33sp"
+	            android:text="vs"/>
+	         
+	         <TextView 
+	            android:id="@+id/tv3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="90dp"
+	            android:textSize="33sp"
+	            android:text="乙方"/>
+	         
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+
+	        <Button
+	            android:id="@+id/b1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:text="提交"
+	            android:onClick="returnResult"
+	            android:textSize="33dp" />
+
+	    </LinearLayout>
+	    
+	</LinearLayout>
+    
+</LinearLayout>

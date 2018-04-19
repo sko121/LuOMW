@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+     
+    <Button 
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_launcher"
+        android:onClick="sendMessage"
+        android:text="button"
+        />
+    
+    <Button 
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/ic_launcher"
+        android:onClick="sendMessage"
+        android:text="button"
+        />
+    
+    <TextView 
+        android:id="@+id/tttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="#ff0000"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="fajgawejfawnfcwnowejvgiwjfgjaebfagawegasdfasfsafa"/>
+
+</LinearLayout>

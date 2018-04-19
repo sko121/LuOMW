@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F9F9F9"
+    android:layout_alignParentBottom="true" 
+    android:orientation="horizontal" >
+    
+    <Button 
+        android:id="@+id/me_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/tab_icon_me_seletors"
+        android:text="我"/>
+    <Button 
+        android:id="@+id/news_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/tab_icon_news_seletors"
+        android:text="新闻"/>
+    <Button 
+        android:id="@+id/money_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/tab_icon_money_seletors"
+        android:text="钱"/>
+    <Button 
+        android:id="@+id/friend_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/tab_icon_me_seletors"
+        android:text="朋友"/>
+	
+</LinearLayout>
